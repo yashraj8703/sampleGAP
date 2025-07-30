@@ -1,0 +1,23 @@
+/* HeroSlider.module.css */
+
+.carouselImg {
+  width: 100%;
+  height: 100vh; 
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .carouselImg {
+    height: 50vh;
+  }
+}
+
+.caption {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.carouselItem {
+  transition: opacity 1s ease-in-out;
+}

@@ -1,0 +1,25 @@
+.aboutSection {
+  background: linear-gradient(to bottom, #2b0000, #000); /* dark red to black */
+  color: white;
+  padding: 60px 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #ff4d4d; /* bright theatrical red */
+}
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.highlight {
+  color: #ff9999; /* softer red for emphasis */
+}
