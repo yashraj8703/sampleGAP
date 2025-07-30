@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "./Team.module.css";
+import styles from "./team.module.css";
 
 const Team = () => {
   const members = [
